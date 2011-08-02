@@ -16,10 +16,13 @@
   <meta http-equiv="content-language" content="en" />
   
   <meta name="author" content="Site Title" />
-  <meta name="copyright" content="<%= Date.today.year %>, Site Title" />
+  <meta name="copyright" content="<%= Time.now.year %>, Site Title" />
   
   <meta name="Geo.Country" content="GB" />
   <meta name="Geo.Region" content="GB-BST" />
+  
+  <%= csrf_meta_tag %>
+  
   <!-- eo:meta-->
   
   <!-- Favicon: -->
